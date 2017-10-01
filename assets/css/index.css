@@ -1,0 +1,10 @@
+/* organizers */
+#organizers h3 {
+    margin-bottom: 0.1em;
+}
+
+#organizers h5 {
+    text-transform: none;
+    font-size: 0.8em;
+    font-weight: 100;
+}
