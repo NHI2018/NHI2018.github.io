@@ -40,9 +40,9 @@
 				</div>
 				<nav>
 					<ul>
-						<li><a href="#conference-theme">Conference Theme</a></li>
+						<li><a href="#theme">Theme</a></li>
 						<li><a href="#organizers">Organizers</a></li>
-						<li><a href="#conference-schedule">Conference Schedule</a></li>
+						<li><a href="#schedule">Schedule</a></li>
 						<li><a href="#invited-participants">Invited Participants</a></li>
 						<li><a href="#maps">Maps and Information</a></li>
 					</ul>
@@ -53,8 +53,8 @@
 			<div id="main">
 
 				<!-- Conference Theme -->
-				<article id="conference-theme">
-					<h2 class="major">Conference Theme</h2>
+				<article id="theme">
+					<h2 class="major">Theme</h2>
 					<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
 					<ol>
 						<li><h4>History of National Health Insurance</h4></li>
@@ -90,15 +90,13 @@
 					<h5>University of British Columbia</h5>
 				</article>
 
-				<!-- Conference Schedule -->
-				<article id="conference-schedule">
-					<h2 class="major">Conference Schedule</h2>
+				<!-- Schedule -->
+				<article id="schedule">
+					<h2 class="major">Schedule</h2>
 
-					<div class="w3-bar w3-black">
-						<ul>
-	 						<button onclick="openTable('may-24')">May 24th</button>
-							<button onclick="openTable('may-25')">May 25th</button>
-						</ul>
+					<div class="nav-tabs">
+ 						<button onclick="openTable('may-24')">May 24th</button>
+						<button onclick="openTable('may-25')">May 25th</button>
 					</div>
 
 					<table id="may-24" class="tab-table">
@@ -109,26 +107,26 @@
 							<th width="22%">Note</th>
 						</tr>
 						<tr>
-							<td>8:30 AM - 9:00 AM</td>
-							<td>Registration</td>
-							<td></td>
-							<td></td>
+							<td data-th="Time">8:30 AM - 9:00 AM</td>
+							<td data-th="Program">Registration</td>
+							<td data-th="Presenters"></td>
+							<td data-th="Note"></td>
 						</tr>
 						<tr>
-							<td>9:00 AM - 9:15 AM</td>
-							<td>Introduction</td>
-							<td>
+							<td data-th="Time">9:00 AM - 9:15 AM</td>
+							<td data-th="Program">Introduction</td>
+							<td data-th="Presenters">
 								<ol>
 									<li>Hung-Yok Ip</li>
 									<li>Chunhuei Chi</li>
 								</ol>
 							</td>
-							<td></td>
+							<td data-th="Note"></td>
 						</tr>
 						<tr>
-							<td>9:15 AM - 10:00 AM</td>
-							<td>Welcoming Remarks</td>
-							<td>
+							<td data-th="Time">9:15 AM - 10:00 AM</td>
+							<td data-th="Program">Welcoming Remarks</td>
+							<td data-th="Presenters">
 								<ol>
 									<li>Larry Rodgers</li>
 									<li>Javier Nieto<br>
@@ -137,21 +135,21 @@
 									<li>Ed Ray</li>
 								</ol>
 							</td>
-							<td></td>
+							<td data-th="Note"></td>
 						</tr>
 						<tr>
-							<td>10:00 AM - 10:15 AM</td>
-							<td>Coffee/Tea Break</td>
-							<td></td>
-							<td></td>
+							<td data-th="Time">10:00 AM - 10:15 AM</td>
+							<td data-th="Program">Coffee/Tea Break</td>
+							<td data-th="Presenters"></td>
+							<td data-th="Note"></td>
 						</tr>
 						<tr>
-							<td>10:15 AM - 11:20 AM</td>
-							<td>Presentations<br>
+							<td data-th="Time">10:15 AM - 11:20 AM</td>
+							<td data-th="Program">Presentations<br>
 								<span>Theme 1:<br>
 								History of National Health Insurance in Taiwan, Japan, S. Korea, Canada & Chile</span>
 							</td>
-							<td>Moderator:<br>
+							<td data-th="Presenters">Moderator:<br>
 								<em class="bold">Chunhuei Chi</em><br>
 								Presenters:
 								<ol>
@@ -162,15 +160,15 @@
 									<li>Alicia Núñez Mondaca</li>
 								</ol>
 							</td>
-							<td></td>
+							<td data-th="Note"></td>
 						</tr>
 						<tr>
-							<td>11:20 AM - 12:00 PM</td>
-							<td>Panel Discussion<br>
+							<td data-th="Time">11:20 AM - 12:00 PM</td>
+							<td data-th="Program">Panel Discussion<br>
 								<span>Theme 1:<br>
 								History of National Health Insurance in Taiwan, Japan, S. Korea, Canada & Chile</span>
 							</td>
-							<td>Moderator:<br>
+							<td data-th="Presenters">Moderator:<br>
 								<em class="bold">Chunhuei Chi</em><br>
 								Panelists:
 								<ol>
@@ -183,21 +181,21 @@
 									<li>Kieke Okma</li>
 								</ol>
 							</td>
+							<td data-th="Note"></td>
+						</tr>
+						<tr>
+							<td data-th="Time">12:00 PM - 1:20 PM</td>
+							<td data-th="Program">Lunch Break</td>
+							<td data-th="Presenters"></td>
 							<td></td>
 						</tr>
 						<tr>
-							<td>12:00 PM - 1:20 PM</td>
-							<td>Lunch Break</td>
-							<td></td>
-							<td></td>
-						</tr>
-						<tr>
-							<td>1:20 PM - 2:45 PM</td>
-							<td>Presentations<br>
+							<td data-th="Time">1:20 PM - 2:45 PM</td>
+							<td data-th="Program">Presentations<br>
 								<span>Theme 2:<br>
 								Equity in Health, Access to Healthcare, and Financial Burden under NHI</span>
 							</td>
-							<td>Moderator:<br>
+							<td data-th="Presenters">Moderator:<br>
 								<em class="bold">Hung-Yok Ip</em><br>
 								Presenters:
 								<ol>
@@ -207,21 +205,21 @@
 									<li>Lee Jwo-Leun</li>
 								</ol>
 							</td>
-							<td></td>
+							<td data-th="Note"></td>
 						</tr>
 						<tr>
-							<td>2:45 PM - 3:00 PM</td>
-							<td>Coffee/Tea Break</td>
-							<td></td>
-							<td></td>
+							<td data-th="Time">2:45 PM - 3:00 PM</td>
+							<td data-th="Program">Coffee/Tea Break</td>
+							<td data-th="Presenters"></td>
+							<td data-th="Note"></td>
 						</tr>
 						<tr>
-							<td>3:00 PM - 3:50 PM</td>
-							<td>Panel Discussion<br>
+							<td data-th="Time">3:00 PM - 3:50 PM</td>
+							<td data-th="Program">Panel Discussion<br>
 								<span>Theme 2:<br>
 								Equity in Health, Access to Healthcare, and Financial Burden under NHI</span>
 							</td>
-							<td>Moderator:<br>
+							<td data-th="Presenters">Moderator:<br>
 								<em class="bold">Rebecca Schoon</em><br>
 								Presenters:
 								<ol>
@@ -232,19 +230,19 @@
 									<li>Ted Marmor</li>
 								</ol>
 							</td>
-							<td></td>
+							<td data-th="Note"></td>
 						</tr>
 						<tr>
-							<td>3:50 PM - 4:00 PM</td>
-							<td>Break for Transition to Keynote Speech</td>
-							<td></td>
-							<td></td>
+							<td data-th="Time">3:50 PM - 4:00 PM</td>
+							<td data-th="Program">Break for Transition to Keynote Speech</td>
+							<td data-th="Presenters"></td>
+							<td data-th="Note"></td>
 						</tr>
 						<tr>
-							<td>4:00 PM - 5:30 PM</td>
-							<td>Keynote Speech by <em class="bold">Bob Evans</em></td>
-							<td>Introduced by <em class="bold">Chunhuei Chi</em></td>
-							<td class="note">
+							<td data-th="Time">4:00 PM - 5:30 PM</td>
+							<td data-th="Program">Keynote Speech by <em class="bold">Bob Evans</em></td>
+							<td data-th="Presenters">Introduced by <em class="bold">Chunhuei Chi</em></td>
+							<td data-th="Note"class="note">
 								<ul>
 									<li>Construction and Engineering Hall</li>
 									<li>The LaSells Stewart Center</li>
@@ -252,10 +250,10 @@
 							</td>
 						</tr>
 						<tr>
-							<td>5:30 PM - 7:30 PM</td>
-							<td>Reception (Invited Participants)</td>
-							<td></td>
-							<td></td>
+							<td data-th="Time">5:30 PM - 7:30 PM</td>
+							<td data-th="Program">Reception (Invited Participants)</td>
+							<td data-th="Presenters"></td>
+							<td data-th="Note"></td>
 						</tr>
 					</table>
 

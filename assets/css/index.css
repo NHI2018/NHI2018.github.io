@@ -1,3 +1,8 @@
+/* generic */
+.bold {
+    font-weight: bold;
+}
+
 /* organizers */
 #organizers h3 {
     margin-bottom: 0.1em;
@@ -10,21 +15,44 @@
 }
 
 /* conference schedule */
-table th {
-    font-weight: 500;
+#schedule table th {
+    font-weight: bold;
     padding-top: 0.5em;
     text-align: center;
     font-size: 1.2em;
 }
 
-table span {
+#schedule table span {
     font-size: 0.9em;
     font-style: italic;
     font-weight: bold;
 }
 
-.bold {
-    font-weight: bold;
+@media screen and (max-width: 451px) {
+    #schedule table th {
+        display: none;
+    }
+
+    #schedule table td {
+        display: block;
+    }
+
+    #schedule table td:before {
+        /* content: attr(data-th); */
+        /* float: left; */
+    }
+}
+
+.nav-tabs {
+    margin: 1em 33% 2.5em;
+}
+
+.nav-tabs button {
+    margin-right: 0.5em;
+}
+
+.nav-tabs button:last-child {
+    margin-right: 0;
 }
 
 .note {
