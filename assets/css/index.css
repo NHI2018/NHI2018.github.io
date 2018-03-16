@@ -29,17 +29,20 @@
 }
 
 @media screen and (max-width: 451px) {
-    #schedule table th {
+    #schedule table {
+        letter-spacing: 1px;
+    }
+
+    #schedule table tr th {
         display: none;
     }
 
-    #schedule table td {
+    #schedule table tr td {
         display: block;
     }
 
-    #schedule table td:before {
-        /* content: attr(data-th); */
-        /* float: left; */
+    #schedule table tr td:before {
+        content: attr(data-th) ": ";
     }
 }
 
