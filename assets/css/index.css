@@ -13,7 +13,22 @@
 /* invited-participants */
 #invited-participants ul li {
     letter-spacing : 1.5px;
+    padding-right: 1em;
 }
 
+#invited-participants ul li h3 {
+    font-size: 1.1em;
+    text-transform: capitalize;
+}
+
+#invited-participants ul li h3 span{
+    font-weight: 100;
+    font-size: 0.7em;
+    font-style: italic;
+}
+
+#invited-participants p {
+    text-indent: 2em;    
+}
 
 /* maps and information*/
