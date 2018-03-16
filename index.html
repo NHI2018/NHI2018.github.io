@@ -8,6 +8,16 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/index.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script type="text/javascript">
+		function openTable(tableName) {
+			var i;
+			var x = document.getElementsByClassName("tab-table");
+			for (i = 0; i < x.length; i++) {
+				x[i].style.display = "none";
+			}
+			document.getElementById(tableName).style.display = "block";
+		}
+		</script>
 	</head>
 
 	<body>
@@ -84,8 +94,14 @@
 				<article id="conference-schedule">
 					<h2 class="major">Conference Schedule</h2>
 
-					<h3>May 24th</h3>
-					<table>
+					<div class="w3-bar w3-black">
+						<ul>
+	 						<button onclick="openTable('may-24')">May 24th</button>
+							<button onclick="openTable('may-25')">May 25th</button>
+						</ul>
+					</div>
+
+					<table id="may-24" class="tab-table">
 						<tr>
 							<th width="20%">Time</th>
 						    <th width="33%">Program</th>
@@ -243,8 +259,8 @@
 						</tr>
 					</table>
 
-					<h3>May 25th</h3>
-					<table>
+
+					<table id="may-25" class="tab-table" style="display:none">
 						<tr>
 							<th>Time</th>
 						    <th>Program</th>
