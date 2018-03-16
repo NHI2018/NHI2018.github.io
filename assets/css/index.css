@@ -44,15 +44,18 @@
 }
 
 .nav-tabs {
-    margin: 1em 33% 2.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em 0 2.5em;
 }
 
 .nav-tabs button {
-    margin-right: 0.5em;
+    margin-right: 0.7em;
 }
 
 .nav-tabs button:last-child {
-    margin-right: 0;
+    margin-right: 0em;
 }
 
 .note {
