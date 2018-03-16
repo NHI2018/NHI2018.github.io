@@ -9,6 +9,28 @@
     font-weight: 100;
 }
 
+/* conference schedule */
+table th {
+    font-weight: 500;
+    padding-top: 0.5em;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+table span {
+    font-size: 0.9em;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.note {
+    font-size: 0.9em;
+    font-style: italic;
+}
 
 /* invited-participants */
 #invited-participants ul li {
@@ -28,7 +50,7 @@
 }
 
 #invited-participants p {
-    text-indent: 2em;    
+    text-indent: 2em;
 }
 
 /* maps and information*/
