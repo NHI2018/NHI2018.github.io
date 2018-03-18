@@ -94,17 +94,18 @@
 
 #invited-participants ul li img {
     border-radius: 5px;
-    width: 25%;
+    width: 27%;
+    margin-bottom: 3px;
 }
 
 #invited-participants ul li:nth-child(odd) img {
     float: left;
-    margin-right: 0.7em;
+    margin-right: 1em;
 }
 
 #invited-participants ul li:nth-child(even) img {
     float: right;
-    margin-left: 0.7em;
+    margin-left: 1em;
 }
 
 /* maps and information*/
