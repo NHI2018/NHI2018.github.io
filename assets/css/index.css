@@ -7,6 +7,10 @@
     text-transform:lowercase;
 }
 
+.clearfix {
+    clear: both;
+}
+
 /* organizers */
 #organizers h3 {
     margin-bottom: 0.1em;
@@ -77,6 +81,7 @@
 }
 
 #invited-participants ul li h3 {
+    margin-top: 1em;
     font-size: 1.1em;
     text-transform: capitalize;
 }
@@ -87,8 +92,19 @@
     font-style: italic;
 }
 
-#invited-participants p {
-    text-indent: 2em;
+#invited-participants ul li img {
+    border-radius: 5px;
+    width: 25%;
+}
+
+#invited-participants ul li:nth-child(odd) img {
+    float: left;
+    margin-right: 0.7em;
+}
+
+#invited-participants ul li:nth-child(even) img {
+    float: right;
+    margin-left: 0.7em;
 }
 
 /* maps and information*/
