@@ -38,14 +38,19 @@ h3 {
 /* conference schedule */
 #schedule table tr th {
     font-weight: bold;
-    padding-top: 0.5em;
+    padding-top: 0.6em;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.1em;
+    letter-spacing: 3px;
 }
 
 #schedule table tr td:nth-child(4) {
     font-size: 0.9em;
     font-style: italic;
+}
+
+#schedule table tr ol {
+    margin-bottom: 1.5em;
 }
 
 #schedule table span {
