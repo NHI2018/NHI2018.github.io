@@ -1,10 +1,23 @@
 /* generic */
+l {
+    text-transform: lowercase;
+}
+
+h2 {
+    letter-spacing: 7px;
+}
+
+h3 {
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+
 .bold {
     font-weight: bold;
 }
 
 .lowercase {
-    text-transform:lowercase;
+    text-transform: lowercase;
 }
 
 .clearfix {
@@ -83,7 +96,6 @@
 #invited-participants ul li h3 {
     margin-top: 1em;
     font-size: 1.1em;
-    text-transform: capitalize;
 }
 
 #invited-participants ul li h3 span{
