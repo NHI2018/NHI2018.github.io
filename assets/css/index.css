@@ -109,3 +109,6 @@
 }
 
 /* maps and information*/
+#maps iframe {
+    margin-bottom: 2em;
+}
