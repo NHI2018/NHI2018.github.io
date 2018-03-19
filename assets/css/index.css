@@ -36,8 +36,14 @@ l {
 
 /* header */
 #header form {
+    background-color: rgba(25, 25, 25, 0.5);
     display: inline-block;
     margin: 0 0 2px 0;
+}
+
+#header ul li {
+    background-color: rgba(25, 25, 25, 0.5);
+    font-weight: bold;
 }
 
 /* themes */
