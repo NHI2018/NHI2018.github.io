@@ -38,7 +38,11 @@ l {
 #header form {
     background-color: rgba(25, 25, 25, 0.5);
     display: inline-block;
-    margin: 0 0 2px 0;
+    margin: 1em 0 2px 0;
+}
+
+#header form input {
+    font-weight: bold;
 }
 
 #header ul li {
