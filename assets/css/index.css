@@ -3,20 +3,12 @@ l {
     text-transform: lowercase;
 }
 
-h2 {
+h1, h2 {
     letter-spacing: 7px;
 }
 
-h3 {
+h3, h4, h5 {
     text-transform: capitalize;
-    letter-spacing: 3px;
-}
-
-h4 {
-    letter-spacing: 3px;
-}
-
-h5 {
     letter-spacing: 3px;
 }
 
