@@ -40,6 +40,29 @@ h3, h4, h5 {
     font-weight: 100;
 }
 
+#organizers .organizers {
+    margin-top: 4em;
+}
+
+#organizers .organizer {
+    vertical-align: top;
+    width: 30%;
+    display: inline-block;
+    margin-right: 1.1em;
+    text-align: center;
+}
+
+#organizers .organizer:first-child {
+    margin-left: 1.3em;
+}
+
+#organizers .organizer img {
+    display: block;
+    margin: 0 auto 1.5em;
+    width: 85%;
+    border-radius: 100%;
+}
+
 /* conference schedule */
 #schedule table tr th {
     font-weight: bold;
