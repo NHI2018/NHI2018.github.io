@@ -37,7 +37,7 @@ l {
 /* header */
 #header form {
     display: inline-block;
-    margin-right: 2px;
+    margin: 0 0 2px 0;
 }
 
 /* themes */
