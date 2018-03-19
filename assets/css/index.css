@@ -9,7 +9,11 @@ h1, h2 {
 
 h3, h4, h5 {
     text-transform: capitalize;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
+}
+
+p {
+    letter-spacing: 1px;
 }
 
 .bold {
@@ -61,6 +65,45 @@ h3, h4, h5 {
     margin: 0 auto 1.5em;
     width: 75%;
     border-radius: 100%;
+}
+
+@media screen and (max-width: 950px) {
+    #organizers .organizer {
+        margin-right: 0.5em;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    #organizers .organizer {
+        font-size: 1em;
+        width: 100%;
+        text-align: left;
+        margin-bottom: 0.5em;
+    }
+
+    #organizers .organizer:first-child {
+        margin-left: 0;
+    }
+
+    #organizers .organizer h4 {
+        font-size: 0.9em;
+    }
+
+    #organizers .organizer img {
+        float: left;
+        width: 25%;
+        margin-right: 1.5em;
+    }
+}
+
+@media screen and (max-width: 451px) {
+    #organizers .organizer {
+        font-size: 0.8em;
+    }
+
+    #organizers .organizer h4 {
+        font-weight: normal;
+    }
 }
 
 /* conference schedule */
