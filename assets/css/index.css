@@ -157,3 +157,24 @@ h3, h4, h5 {
 #maps iframe {
     margin-bottom: 2em;
 }
+
+#maps ul {
+    font-size: 1.2em;
+}
+
+#maps h3 {
+    font-size: 1.2em;
+    border-bottom: 3em;
+}
+
+#maps h4 {
+    margin-top: -1.2em;
+    font-size: 1em;
+    text-align: center;
+}
+
+#maps .food-court {
+    width: 46%;
+    margin-right: 3%;
+    display: inline-block;
+}
