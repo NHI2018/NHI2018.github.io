@@ -240,7 +240,23 @@ l {
 
 #maps .food-court {
     vertical-align: top;
-    width: 46%;
-    margin-right: 3%;
-    display: inline-block;
+    width: 48%;
+}
+
+#maps .food-court:nth-child(odd) {
+    float: left;
+}
+
+#maps .food-court:nth-child(even) {
+    float: right;
+}
+
+@media screen and (max-width: 650px) {
+    #maps iframe {
+        height: 100%;
+    }
+
+    #maps .food-court {
+        font-size: 0.9em;
+    }
 }
