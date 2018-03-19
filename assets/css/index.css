@@ -12,6 +12,10 @@ h3 {
     letter-spacing: 3px;
 }
 
+h4 {
+    letter-spacing: 3px;
+}
+
 h5 {
     letter-spacing: 3px;
 }
@@ -26,6 +30,11 @@ h5 {
 
 .clearfix {
     clear: both;
+}
+
+/* themes */
+#theme h3 {
+    font-size: 1.1em;
 }
 
 /* organizers */
