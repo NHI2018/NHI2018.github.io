@@ -34,6 +34,12 @@ l {
     clear: both;
 }
 
+/* header */
+#header form {
+    display: inline-block;
+    margin-right: 2px;
+}
+
 /* themes */
 #theme h3 {
     font-size: 1.1em;
@@ -259,4 +265,9 @@ l {
     #maps .food-court {
         font-size: 0.9em;
     }
+}
+
+/* footer */
+#footer .copyright {
+    letter-spacing: 3px;
 }
