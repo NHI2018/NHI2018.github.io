@@ -18,6 +18,10 @@ h3, h4, h5 {
     letter-spacing: 2px;
 }
 
+p {
+    hyphens: auto;
+}
+
 l {
     text-transform: lowercase;
 }
@@ -223,7 +227,6 @@ l {
 
 #participants ul li p {
     font-size: 0.9em;
-    hyphens: auto;
 }
 
 #participants ul li:nth-child(odd) img {
