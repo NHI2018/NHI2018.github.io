@@ -185,47 +185,47 @@ l {
     margin-right: 0em;
 }
 
-/* invited-participants */
-#invited-participants ul li {
+/* participants */
+#participants ul li {
     letter-spacing : 1.5px;
     padding-right: 1em;
 }
 
-#invited-participants ul li h3 {
+#participants ul li h3 {
     margin-top: 1em;
     font-size: 1.1em;
 }
 
-#invited-participants ul li h3 span{
+#participants ul li h3 span{
     font-weight: 100;
     font-size: 0.7em;
     font-style: italic;
 }
 
-#invited-participants ul li img {
+#participants ul li img {
     border-radius: 5px;
     width: 27%;
     margin-bottom: 3px;
 }
 
-#invited-participants ul li:nth-child(odd) img {
+#participants ul li:nth-child(odd) img {
     float: left;
     margin-right: 1em;
 }
 
-#invited-participants ul li:nth-child(even) img {
+#participants ul li:nth-child(even) img {
     float: right;
     margin-left: 1em;
 }
 
 @media screen and (max-width: 750px) {
-    #invited-participants ul li img {
+    #participants ul li img {
         width: 30%;
     }
 }
 
 @media screen and (max-width: 451px) {
-    #invited-participants ul li img {
+    #participants ul li img {
         width: 50%;
         margin: 0 auto 1em !important;
         border-radius: 100%;
@@ -234,45 +234,45 @@ l {
     }
 }
 
-/* maps and information*/
-#maps iframe {
+/* information and information*/
+#information iframe {
     margin-bottom: 2em;
 }
 
-#maps ul {
+#information ul {
     font-size: 1.2em;
 }
 
-#maps h3 {
+#information h3 {
     font-size: 1.2em;
     border-bottom: 3em;
 }
 
-#maps h4 {
+#information h4 {
     margin-top: -1.2em;
     font-size: 1em;
     text-align: center;
 }
 
-#maps .food-court {
+#information .food-court {
     vertical-align: top;
     width: 48%;
 }
 
-#maps .food-court:nth-child(odd) {
+#information .food-court:nth-child(odd) {
     float: left;
 }
 
-#maps .food-court:nth-child(even) {
+#information .food-court:nth-child(even) {
     float: right;
 }
 
 @media screen and (max-width: 650px) {
-    #maps iframe {
+    #information iframe {
         height: 100%;
     }
 
-    #maps .food-court {
+    #information .food-court {
         font-size: 0.9em;
     }
 }
