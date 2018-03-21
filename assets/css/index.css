@@ -57,14 +57,21 @@ l {
 /* themes */
 #theme h3 {
     font-size: 1.1em;
+    margin-bottom: 2em;
 }
 
-#theme span.image {
+#theme .theme h4 {
+    font-size: 1em;
+    font-weight: normal;
+}
+
+#theme .theme span.image {
+    margin-top: 1em;
     position: relative;
     text-align: right;
 }
 
-#theme span em {
+#theme .theme span em {
     position: absolute;
     bottom: 8px;
     right: 8px;
@@ -223,10 +230,6 @@ l {
     border-radius: 8px;
     width: 22%;
     margin-bottom: 3px;
-}
-
-#participants ul li p {
-    font-size: 0.9em;
 }
 
 #participants ul li:nth-child(odd) img {
