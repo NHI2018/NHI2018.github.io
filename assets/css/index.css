@@ -60,23 +60,52 @@ l {
     margin-bottom: 2em;
 }
 
+#theme .theme {
+    margin-bottom: 2em;
+}
+
 #theme .theme h4 {
     font-size: 1em;
     font-weight: normal;
 }
 
-#theme .theme span.image {
-    margin-top: 1em;
+#theme .theme .theme-image {
     position: relative;
     text-align: right;
 }
 
-#theme .theme span em {
+#theme .theme .theme-image img {
+    border-radius: 8px;
+    width: 100%;
+}
+
+#theme .theme .theme-image.image-right {
+    width: 30%;
+    float: right;
+}
+
+#theme .theme .theme-image.image-left {
+    width: 40%;
+    float: left;
+}
+
+#theme .theme .theme-image em {
+    padding: 2px 8px;
+    width: 100%;
+    font-size: 0.7em;
+    color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(90, 90, 90, 0.4);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
     position: absolute;
     bottom: 8px;
-    right: 8px;
-    font-size: 0.8em;
-    color: rgba(255, 255, 255, 0.6);
+    right: 0px;
+}
+
+@media screen and (max-width: 750px) {
+    #theme .theme .theme-image {
+        display: none;
+    }
 }
 
 /* organizers */
