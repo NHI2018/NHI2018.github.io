@@ -261,7 +261,7 @@ l {
 
 #participants ul li h3 {
   margin-top: 1em;
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
 
 #participants ul li h3 span{
@@ -284,6 +284,11 @@ l {
 #participants ul li:nth-child(even) img {
   float: right;
   margin-left: 1em;
+}
+
+#participants ul li p {
+  font-size: 0.9em;
+  margin: 0;
 }
 
 @media screen and (max-width: 750px) {
