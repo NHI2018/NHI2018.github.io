@@ -1,339 +1,348 @@
 /* generic */
 body {
-    letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 @media screen and (max-width: 750px) {
-    body {
-        font-size: 0.8em;
-    }
+  body {
+    font-size: 0.8em;
+  }
 }
 
 h1, h2 {
-    letter-spacing: 3px;
+  letter-spacing: 3px;
 }
 
 h3, h4, h5 {
-    text-transform: capitalize;
-    letter-spacing: 2px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
 }
 
 p {
-    hyphens: auto;
+  hyphens: auto;
 }
 
 l {
-    text-transform: lowercase;
+  text-transform: lowercase;
 }
 
 .bold {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .lowercase {
-    text-transform: lowercase;
+  text-transform: lowercase;
 }
 
 .clearfix {
-    clear: both;
+  clear: both;
 }
 
 /* header */
 #header form {
-    background-color: rgba(25, 25, 25, 0.5);
-    display: inline-block;
-    margin: 1em 0 2px 0;
+  background-color: rgba(25, 25, 25, 0.5);
+  display: inline-block;
+  margin: 1em 0 2px 0;
 }
 
 #header form input {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 #header ul li {
-    background-color: rgba(25, 25, 25, 0.5);
-    font-weight: bold;
+  background-color: rgba(25, 25, 25, 0.5);
+  font-weight: bold;
 }
 
 /* themes */
-#theme h3 {
-    font-size: 1.1em;
-    margin-bottom: 2em;
+#themes h3 {
+  font-size: 1.1em;
+  margin-bottom: 2em;
 }
 
-#theme .theme {
-    margin-bottom: 2em;
+#themes hr {
+	margin: 0 0 1.5em;
+	border-bottom: solid 1px rgba(204, 204, 204, 0.5);
 }
 
-#theme .theme h4 {
-    font-size: 1em;
-    font-weight: normal;
+#themes .theme {
+  margin-bottom: 2em;
 }
 
-#theme .theme .theme-image {
-    position: relative;
-    text-align: right;
+#themes .theme h4 {
+  font-size: 1.2em;
+  font-weight: bold;
 }
 
-#theme .theme .theme-image img {
-    border-radius: 8px;
-    width: 100%;
+#themes .theme .theme-image {
+  position: relative;
+  text-align: right;
 }
 
-#theme .theme .theme-image.image-right {
-    width: 30%;
-    float: right;
+#themes .theme .theme-image img {
+  border-radius: 8px;
+  width: 100%;
 }
 
-#theme .theme .theme-image.image-left {
-    width: 40%;
-    float: left;
+#themes .theme .theme-image.image-right {
+  width: 30%;
+  float: right;
 }
 
-#theme .theme .theme-image em {
-    padding: 2px 8px;
-    width: 100%;
-    font-size: 0.7em;
-    color: rgba(255, 255, 255, 0.8);
-    background-color: rgba(90, 90, 90, 0.4);
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-    position: absolute;
-    bottom: 8px;
-    right: 0px;
+#themes .theme .theme-image.image-left {
+  width: 40%;
+  float: left;
+}
+
+#themes .theme .theme-image em {
+  padding: 2px 8px;
+  width: 100%;
+  font-size: 0.7em;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(90, 90, 90, 0.4);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  position: absolute;
+  bottom: 8px;
+  right: 0px;
+}
+
+#themes .theme p {
+	margin-top: 1em;
 }
 
 @media screen and (max-width: 750px) {
-    #theme .theme .theme-image {
-        display: none;
-    }
+  #themes .theme .theme-image {
+    display: none;
+  }
 }
 
 /* organizers */
 #organizers h3 {
-    margin-bottom: 0.1em;
+  margin-bottom: 0.1em;
 }
 
 #organizers h5 {
-    text-transform: none;
-    font-size: 0.8em;
-    font-weight: 100;
+  text-transform: none;
+  font-size: 0.8em;
+  font-weight: 100;
 }
 
 #organizers .organizers {
-    margin-top: 4em;
+  margin-top: 4em;
 }
 
 #organizers .organizer {
-    vertical-align: top;
-    width: 30%;
-    display: inline-block;
-    margin-right: 1.1em;
-    text-align: center;
+  vertical-align: top;
+  width: 30%;
+  display: inline-block;
+  margin-right: 1.1em;
+  text-align: center;
 }
 
 #organizers .organizer:first-child {
-    margin-left: 1.3em;
+  margin-left: 1.3em;
 }
 
 #organizers .organizer img {
-    display: block;
-    margin: 0 auto 1.5em;
-    width: 75%;
-    border-radius: 100%;
+  display: block;
+  margin: 0 auto 1.5em;
+  width: 75%;
+  border-radius: 100%;
 }
 
 @media screen and (max-width: 950px) {
-    #organizers .organizer {
-        margin-right: 0.5em;
-    }
+  #organizers .organizer {
+    margin-right: 0.5em;
+  }
 }
 
 @media screen and (max-width: 750px) {
-    #organizers .organizer {
-        font-size: 1.2em;
-        width: 100%;
-        text-align: left;
-        margin-bottom: 0.5em;
-    }
+  #organizers .organizer {
+    font-size: 1.2em;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 0.5em;
+  }
 
-    #organizers .organizer:first-child {
-        margin-left: 0;
-    }
+  #organizers .organizer:first-child {
+    margin-left: 0;
+  }
 
-    #organizers .organizer h4 {
-        font-size: 0.9em;
-    }
+  #organizers .organizer h4 {
+    font-size: 0.9em;
+  }
 
-    #organizers .organizer img {
-        float: left;
-        width: 25%;
-        margin-right: 1.5em;
-    }
+  #organizers .organizer img {
+    float: left;
+    width: 25%;
+    margin-right: 1.5em;
+  }
 }
 
 @media screen and (max-width: 451px) {
-    #organizers .organizer {
-        font-size: 0.8em;
-    }
+  #organizers .organizer {
+    font-size: 0.8em;
+  }
 
-    #organizers .organizer h4 {
-        font-weight: normal;
-    }
+  #organizers .organizer h4 {
+    font-weight: normal;
+  }
 }
 
 /* conference schedule */
 #schedule table tr th {
-    font-weight: bold;
-    padding-top: 0.6em;
-    text-align: center;
-    font-size: 1.1em;
-    letter-spacing: 3px;
+  font-weight: bold;
+  padding-top: 0.6em;
+  text-align: center;
+  font-size: 1.1em;
+  letter-spacing: 3px;
 }
 
 #schedule table tr td:nth-child(4) {
-    font-size: 0.9em;
-    font-style: italic;
+  font-size: 0.9em;
+  font-style: italic;
 }
 
 #schedule table tr ol {
-    margin-bottom: 1.5em;
+  margin-bottom: 1.5em;
 }
 
 #schedule table span {
-    font-size: 0.9em;
-    font-style: italic;
-    font-weight: bold;
+  font-size: 0.9em;
+  font-style: italic;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 451px) {
-    #schedule table {
-        letter-spacing: 1px;
-    }
+  #schedule table {
+    letter-spacing: 1px;
+  }
 
-    #schedule table tr th {
-        display: none;
-    }
+  #schedule table tr th {
+    display: none;
+  }
 
-    #schedule table tr td {
-        display: block;
-    }
+  #schedule table tr td {
+    display: block;
+  }
 
-    #schedule table tr td:before {
-        content: attr(data-th) ": ";
-    }
+  #schedule table tr td:before {
+    content: attr(data-th) ": ";
+  }
 }
 
 .nav-tabs {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1em 0 2.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1em 0 2.5em;
 }
 
 .nav-tabs button {
-    margin-right: 0.7em;
+  margin-right: 0.7em;
 }
 
 .nav-tabs button:last-child {
-    margin-right: 0em;
+  margin-right: 0em;
 }
 
 /* participants */
 #participants ul li {
-    letter-spacing : 1.5px;
-    padding-right: 1em;
+  letter-spacing : 1.5px;
+  padding-right: 1em;
 }
 
 #participants ul li h3 {
-    margin-top: 1em;
-    font-size: 1.1em;
+  margin-top: 1em;
+  font-size: 1.1em;
 }
 
 #participants ul li h3 span{
-    font-weight: 100;
-    font-size: 0.7em;
-    font-style: italic;
+  font-weight: 100;
+  font-size: 0.7em;
+  font-style: italic;
 }
 
 #participants ul li img {
-    border-radius: 8px;
-    width: 22%;
-    margin-bottom: 3px;
+  border-radius: 8px;
+  width: 22%;
+  margin-bottom: 3px;
 }
 
 #participants ul li:nth-child(odd) img {
-    float: left;
-    margin-right: 1em;
+  float: left;
+  margin-right: 1em;
 }
 
 #participants ul li:nth-child(even) img {
-    float: right;
-    margin-left: 1em;
+  float: right;
+  margin-left: 1em;
 }
 
 @media screen and (max-width: 750px) {
-    #participants ul li img {
-        width: 30%;
-    }
+  #participants ul li img {
+    width: 30%;
+  }
 }
 
 @media screen and (max-width: 451px) {
-    #participants ul li img {
-        width: 50%;
-        margin: 0 auto 1em !important;
-        border-radius: 100%;
-        display: block;
-        float: none !important;
-    }
-    #participants ul li p {
-        font-size: 1em;
-    }
+  #participants ul li img {
+    width: 50%;
+    margin: 0 auto 1em !important;
+    border-radius: 100%;
+    display: block;
+    float: none !important;
+  }
+  #participants ul li p {
+    font-size: 1em;
+  }
 }
 
 /* information and information*/
 #information iframe {
-    margin-bottom: 2em;
+  margin-bottom: 2em;
 }
 
 #information ul {
-    font-size: 1.2em;
+  font-size: 1.2em;
 }
 
 #information h3 {
-    font-size: 1.2em;
-    border-bottom: 3em;
+  font-size: 1.2em;
+  border-bottom: 3em;
 }
 
 #information h4 {
-    margin-top: -1.2em;
-    font-size: 1em;
-    text-align: center;
+  margin-top: -1.2em;
+  font-size: 1em;
+  text-align: center;
 }
 
 #information .food-court {
-    vertical-align: top;
-    width: 48%;
+  vertical-align: top;
+  width: 48%;
 }
 
 #information .food-court:nth-child(odd) {
-    float: left;
+  float: left;
 }
 
 #information .food-court:nth-child(even) {
-    float: right;
+  float: right;
 }
 
 @media screen and (max-width: 650px) {
-    #information iframe {
-        height: 100%;
-    }
+  #information iframe {
+    height: 100%;
+  }
 
-    #information .food-court {
-        font-size: 0.9em;
-    }
+  #information .food-court {
+    font-size: 0.9em;
+  }
 }
 
 /* footer */
 #footer .copyright {
-    letter-spacing: 3px;
+  letter-spacing: 3px;
 }
