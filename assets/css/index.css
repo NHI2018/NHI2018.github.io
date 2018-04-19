@@ -257,11 +257,12 @@ l {
 #participants ul li {
   letter-spacing : 1.5px;
   padding-right: 1em;
+  list-style: none;
 }
 
 #participants ul li h3 {
   margin-top: 1em;
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 
 #participants ul li h3 span{
@@ -312,7 +313,8 @@ l {
 
 /* information and information*/
 #information iframe {
-  margin-bottom: 2em;
+  margin-top: 0.5em;
+  margin-bottom: 1.5em;
 }
 
 #information ul {
@@ -321,11 +323,11 @@ l {
 
 #information h3 {
   font-size: 1.2em;
-  border-bottom: 3em;
 }
 
 #information h4 {
   margin-top: -1.2em;
+  margin-bottom: 1.2em;
   font-size: 1em;
   text-align: center;
 }
