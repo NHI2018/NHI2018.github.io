@@ -330,6 +330,7 @@ l {
   margin-bottom: 1.2em;
   font-size: 1em;
   text-align: center;
+  text-transform: none;
 }
 
 #information .food-court {
