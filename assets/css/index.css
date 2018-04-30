@@ -39,6 +39,10 @@ l {
 }
 
 /* header */
+#header h2 {
+  text-transform: none;
+}
+
 #header form {
   background-color: rgba(25, 25, 25, 0.5);
   display: inline-block;
