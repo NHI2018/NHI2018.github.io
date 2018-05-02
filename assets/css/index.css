@@ -43,6 +43,13 @@ l {
   text-transform: none;
 }
 
+#header p {
+  margin: 2em 0;
+  font-size: 1.2em;
+  letter-spacing: 2px;
+  font-family: 'Caveat', cursive;
+}
+
 #header form {
   background-color: rgba(25, 25, 25, 0.5);
   display: inline-block;
