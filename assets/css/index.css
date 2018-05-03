@@ -304,6 +304,11 @@ l {
   margin: 0;
 }
 
+#participants ul li p:first-letter {
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
 @media screen and (max-width: 750px) {
   #participants ul li img {
     width: 30%;
