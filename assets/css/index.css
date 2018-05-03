@@ -264,85 +264,85 @@ l {
   margin-right: 0em;
 }
 
-/* participants */
-#participants ul li {
+/* speakers */
+#speakers ul li {
   letter-spacing : 1.5px;
   padding-right: 1em;
   list-style: none;
   margin-bottom: 2.2em;
 }
 
-#participants ul li h3 {
+#speakers ul li h3 {
   margin-top: 1em;
   font-size: 1.3em;
 }
 
-#participants ul li h3 span{
+#speakers ul li h3 span{
   font-weight: 100;
   font-size: 0.7em;
   font-style: italic;
 }
 
-#participants ul li img {
+#speakers ul li img {
   border-radius: 8px;
   width: 22%;
   margin-bottom: 3px;
 }
 
-#participants ul li:nth-child(odd) img {
+#speakers ul li:nth-child(odd) img {
   float: left;
   margin-right: 1em;
 }
 
-#participants ul li:nth-child(even) img {
+#speakers ul li:nth-child(even) img {
   float: right;
   margin-left: 1em;
 }
 
-#participants ul li p {
+#speakers ul li p {
   font-size: 0.9em;
   margin: 0;
 }
 
-#participants ul li p:first-letter {
+#speakers ul li p:first-letter {
     text-transform: uppercase;
     font-size: 1.5em;
 }
 
 @media screen and (max-width: 750px) {
-  #participants ul li img {
+  #speakers ul li img {
     width: 30%;
   }
 }
 
 @media screen and (max-width: 451px) {
-  #participants ul li img {
+  #speakers ul li img {
     width: 50%;
     margin: 0 auto 1em !important;
     border-radius: 100%;
     display: block;
     float: none !important;
   }
-  #participants ul li p {
+  #speakers ul li p {
     font-size: 1em;
   }
 }
 
-/* information and information*/
-#information iframe {
+/* maps and information */
+#maps iframe {
   margin-top: 0.5em;
   margin-bottom: 1.5em;
 }
 
-#information ul {
+#maps ul {
   font-size: 1.2em;
 }
 
-#information h3 {
+#maps h3 {
   font-size: 1.2em;
 }
 
-#information h4 {
+#maps h4 {
   margin-top: -1.2em;
   margin-bottom: 1.2em;
   font-size: 1em;
@@ -350,25 +350,25 @@ l {
   text-transform: none;
 }
 
-#information .food-court {
+#maps .food-court {
   vertical-align: top;
   width: 48%;
 }
 
-#information .food-court:nth-child(odd) {
+#maps .food-court:nth-child(odd) {
   float: left;
 }
 
-#information .food-court:nth-child(even) {
+#maps .food-court:nth-child(even) {
   float: right;
 }
 
 @media screen and (max-width: 650px) {
-  #information iframe {
+  #maps iframe {
     height: 100%;
   }
 
-  #information .food-court {
+  #maps .food-court {
     font-size: 0.9em;
   }
 }
