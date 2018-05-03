@@ -45,7 +45,7 @@ l {
 
 #header p {
   margin: 2em 0;
-  font-size: 1.2em;
+  font-size: 1.3em !important;
   letter-spacing: 2px;
   font-family: 'Cormorant Upright', serif;
 }
