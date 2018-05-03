@@ -43,7 +43,7 @@ l {
   text-transform: none;
 }
 
-#header p {
+#header p em {
   margin: 2em 0;
   font-size: 1.2em !important;
   letter-spacing: 2px;
