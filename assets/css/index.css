@@ -43,8 +43,11 @@ l {
   text-transform: none;
 }
 
-#header p em {
+#header p {
   margin: 2em 0;
+}
+
+#header p em {
   font-size: 1.2em !important;
   letter-spacing: 2px;
   font-family: 'Cormorant Upright', serif;
