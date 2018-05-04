@@ -34,6 +34,13 @@ l {
   text-transform: lowercase;
 }
 
+.annotation {
+  font-size: 0.9em;
+  color: rgb(186, 186, 186);
+  font-style: italic;
+  text-decoration: underline;
+}
+
 .clearfix {
   clear: both;
 }
