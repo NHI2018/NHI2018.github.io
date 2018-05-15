@@ -375,7 +375,14 @@ l {
 }
 
 #maps ul {
-  font-size: 1.2em;
+  margin-bottom: 0.5em;
+  padding-left: 0;
+  font-size: 1.1em;
+  list-style-type: none;
+}
+
+#maps ul li strong{
+  margin-right: 0.5em;
 }
 
 #maps h3 {
