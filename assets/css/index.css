@@ -34,10 +34,6 @@ l {
   text-transform: lowercase;
 }
 
-.underline {
-  text-decoration: underline;
-}
-
 .verified {
   vertical-align: sub;
   margin-right: 0.3em;
