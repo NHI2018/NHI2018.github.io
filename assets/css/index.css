@@ -34,11 +34,21 @@ l {
   text-transform: lowercase;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
+.verified {
+  vertical-align: sub;
+  margin-right: 0.3em;
+}
+
 .annotation {
   font-size: 0.9em;
   color: rgb(186, 186, 186);
   font-style: italic;
-  text-decoration: underline;
+  list-style-type: none;
+  padding: 0;
 }
 
 .clearfix {
